@@ -4,26 +4,26 @@
 The Personal Budget Tracker is a command-line application designed to help users manage their finances effectively. It allows users to record transactions, categorize them, generate reports, and visualize their financial trends over time. This project is developed using Python and employs SQLite for data storage.
 
 ---
+## Why This App
+The Personal Budget Tracker helps me take control of my finances. I wanted to track how much I earn, how much I spend, and how many hours I need to work to reach my financial goals. Whether I’m saving for a vacation, school expenses, or something special, this app helps me stay organized and see my progress clearly.
+In the future, I hope to make it even smarter by adding features like predicting expenses, suggesting ways to save, and spotting unusual spending. My goal is to make it a tool that helps anyone feel more confident about managing their money.
+
 
 ## Features
-1. **Add Transactions**: Record financial transactions as either income or expenses.
+1. **Add Transaction**: Record financial transactions as either income or expenses.
 2. **View Transactions**: Display all recorded transactions.
-3. **Add Categories**: Define categories to organize transactions (e.g., Salary, Groceries, Utilities).
+3. **Add Category**: Define categories to organize transactions (e.g., Salary, Groceries, Utilities).
 4. **View Categories**: List all existing categories.
-5. **Generate Reports**: Create summarized reports showing income and expenses by category.
-6. **Export Reports**:
-   - CSV format
-   - Excel format
-7. **Calculate Balance**: Calculate the net balance (total income minus total expenses).
-8. **Visualize Balance Over Time**: Generate a graph showing the cumulative balance trend.
+5. **Generate Report**: Create a summarized report showing income and expenses by category.
+6. **Export Report to CSV**: CSV format
+7. **Export Report to Excel**: Excel format
+8. **Calculate Balance**: Calculate the net balance (total income minus total expenses).
+9. **Plot Balance Over Time**: Generate a graph showing the cumulative balance trend. The graph is automatically saved as balance_plot.png in the project directory.
+10. **Exit**: Exit the application.
 
 ---
 
 ## Installation
-
-### Prerequisites
-- Python 3.8+
-- pip (Python package manager)
 
 ### Steps
 1. Clone the repository:
@@ -103,7 +103,7 @@ project-folder/
 1. **Add Category**:
    - Input: `Entertainment`
 2. **Add Transaction**:
-   - Input: `400, income, 1 (Salary), "Paycheck", 2024-12-30`
+   - Input: `400, income, 1 (The input here should be a number, 1 is the id of salary), "Paycheck", 2024-12-30`
 3. **View Transactions**:
    - Output:
      ```
@@ -116,6 +116,8 @@ project-folder/
      ```
 5. **Plot Balance Over Time**:
    - Generates a `balance_plot.png` file and displays the graph.
+ ![Graph showing balance trend](balance_plot.png)
+
 
 ---
 
