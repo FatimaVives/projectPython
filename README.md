@@ -4,8 +4,9 @@
 The Personal Budget Tracker is a command-line application designed to help users manage their finances effectively. It allows users to record transactions, categorize them, generate reports, and visualize their financial trends over time. This project is developed using Python and employs SQLite for data storage.
 
 ---
-## Why This App
+## Why I Chose This App
 The Personal Budget Tracker helps me take control of my finances. I wanted to track how much I earn, how much I spend, and how many hours I need to work to reach my financial goals. Whether I’m saving for a vacation, school expenses, or something special, this app helps me stay organized and see my progress clearly.
+
 In the future, I hope to make it even smarter by adding features like predicting expenses, suggesting ways to save, and spotting unusual spending. My goal is to make it a tool that helps anyone feel more confident about managing their money.
 
 
